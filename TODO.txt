@@ -1,0 +1,5 @@
+Tasks:
+- create a simple map of classes (Basia)
+- set up a database containing groups, lessons and teachers (Basia)
+- create an interface to our app (Basia)
+- gather all this stuff together :D (Kamil)
