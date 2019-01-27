@@ -38,31 +38,31 @@ Mapka sal
 
   <section id="map">
     <section>
-    <div class="class">101
+    <div class="room">101
     </div>
-   <div class="class">102
+   <div class="room">102
     </div>
-    <div class="class">103
+    <div class="room">103
     </div>
-    <div class="object">wc
+    <div class="specialRoom">wc
     </div>
-    <div class="class">104
+    <div class="room">104
     </div>
-    <div class="class">105
+    <div class="room">105
     </div>
   </section>
   <section>
-    <div class="class">106
+    <div class="room">106
     </div>
-   <div class="class">107
+   <div class="room">107
     </div>
-    <div class="class">108
+    <div class="room">108
     </div>
-    <div class="object">p.n.
+    <div class="specialRoom">p.n.
     </div>
-    <div class="class">109
+    <div class="room">109
     </div>
-    <div class="class">110
+    <div class="room">110
     </div>
   </section>
 
@@ -74,8 +74,8 @@ Mapka sal
     Kategorie
     <section>
 
-      <section id="lists">Lista nauczycieli
-      <ul class="listBackground" style="list-style-type:none;">
+      <section class="lists">Lista nauczycieli
+      <ul>
         <li>nauczyciel</li>
         <li>nauczyciel</li>
         <li>nauczyciel</li>
@@ -85,19 +85,19 @@ Mapka sal
       </ul>
       </section>
 
-      <section id="lists">Lista klas
-        <ul class="listBackground" style="list-style-type:none;">
-          <li>klasa</li>
-          <li>klasa</li>
-          <li>klasa</li>
-          <li>klasa</li>
-          <li>klasa</li>
-          <li>klasa</li>
+      <section class="lists">Lista klas
+        <ul>
+          <li>1a</li>
+          <li>1b</li>
+          <li>1c</li>
+          <li>2a</li>
+          <li>2b</li>
+          <li>2c</li>
         </ul>
         </section>
 
-        <section id="lists">Lista przedmiotów
-          <ul class="listBackground" style="list-style-type:none;">
+        <section class="lists">Lista przedmiotów
+          <ul>
             <li>przedmiot</li>
             <li>przedmiot</li>
             <li>przedmiot</li>
@@ -115,58 +115,78 @@ Mapka sal
 
   <article id="rightPanel">
     Plan lekcji
-    <section id="plan">
-      <section id="day">Poniedziałek
-          <ol type="1" class="listBackground">
-            <li>przedmiot</li>
-            <li>przedmiot</li>
-            <li>przedmiot</li>
-            <li>przedmiot</li>
-            <li>przedmiot</li>
-            <li>przedmiot</li>
-          </ol>
-      </section>
-      <section id="day">Wtorek
-        <ol class="listBackground">
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-        </ol>
-      </section>
-      <section id="day">Środa
-        <ol class="listBackground">
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-        </ol>
-      </section>
-      <section id="day">Czwartek
-        <ol class="listBackground">
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-        </ol>
-      </section>
-      <section id="day">Piątek
-        <ol class="listBackground">
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-          <li>przedmiot</li>
-        </ol>
-      </section>
-    </section>
+    <table id="plan">
+
+      <tr>
+        <th>godz.</th>
+        <th>Poniedziałek</th>
+        <th>Wtorek</th>
+        <th>Środa</th>
+        <th>Czwartek</th>
+        <th>Piątek</th>
+      </tr>
+
+      <tr>
+        <td>8:00-8.45</td>
+        <td>przedmiot</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+          <td>9:40-10.25</td>
+          <td>przedmiot o długiej nazwie</td>
+          <td>przedmiot</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+            <td>10:45-11.30</td>
+            <td>przedmiot</td>
+            <td>przedmiot</td>
+            <td>przedmiot</td>
+            <td>przedmiot</td>
+            <td></td>
+          </tr>
+
+          <tr>
+              <td>11:35-12.20</td>
+              <td>przedmiot</td>
+              <td>przedmiot</td>
+              <td>przedmiot</td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+                <td>12:25-13.10</td>
+                <td>przedmiot</td>
+                <td></td>
+                <td>przedmiot</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                  <td>13:30-14:15</td>
+                  <td>przedmiot</td>
+                  <td></td>
+                  <td></td>
+                  <td>przedmiot</td>
+                  <td>przedmiot</td>
+                </tr>
+                <tr>
+                    <td>14:20-15.05</td>
+                    <td>przedmiot</td>
+                    <td></td>
+                    <td>przedmiot</td>
+                    <td></td>
+                    <td>przedmiot</td>
+                  </tr>
+    </table>
   </article>
 
   </main>
